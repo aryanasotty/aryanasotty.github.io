@@ -8,15 +8,26 @@
   </head>
    <body>
      <style>
-  table {
-    width:500px;
+ .coloring {
+    background-color: #BBBBDD;  
+   }
+    table {
+    border-collapse:collapse;
+    width:100px;
     margin:auto;
-    background-color:#555577;
-    color:#FFFFFF;
-  }
-</style>
+    }
+td { 
+    border:solid 2px #000000;
+    color:#000000;
+    padding:10px;
+ }
+    </style>
 
 <table>
+   <colgroup>
+        <col class="coloring">
+        <col span="2">
+    </colgroup>
   <tr>
     <td>06.00 AM</td>
     <td>Wake up time</td>
