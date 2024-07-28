@@ -21,9 +21,25 @@ td {
     color:#000000;
     padding:10px;
  }
-    </style>
+ thead { 
+   background-color:#8888AA;
+}
+ th {
+   
+}
+   tr.meals{
+    font-size:20px;
+    background-color:#D470A2;
+  }
+     </style>
 
 <table>
+  <thead>
+<tr>
+    <th>Time</th>
+    <th>Plan</th>
+  </tr>
+  </thead>
    <colgroup>
         <col class="coloring">
         <col span="2">
@@ -36,7 +52,7 @@ td {
     <td>06:30 AM</td>
     <td>School</td>
   </tr>
-   <tr>
+   <tr class="meals">
     <td>08:30 AM</td>
     <td>Breakfast</td>
   </tr>
@@ -52,7 +68,7 @@ td {
     <td>12:00 AM</td>
     <td>Vocal lessons</td>
   </tr>
-<tr>
+<tr class="meals">
     <td>02:00 PM</td>
     <td>Lunch</td>
   </tr> 
@@ -64,7 +80,7 @@ td {
     <td>07:00 PM</td>
     <td>Going back home</td>
   </tr>
-<tr>
+<tr class="meals">
     <td>08:00 PM</td>
     <td>Dinner</td>
   </tr>
