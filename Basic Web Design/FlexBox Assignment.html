@@ -31,7 +31,51 @@
 </style>
 <section class="grid-container">
     <div class="item1">
-        1
+      <style>
+    .puzzle-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      height: 400px;
+    }
+
+    .puzzle-piece {
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .puzzle-piece.hidden {
+      display: none;
+    }
+
+    #piece1 {
+      background-image: url('images/piece1.jpg');
+    }
+
+    #piece2 {
+      background-image: url('images/piece2.jpg');
+    }
+
+    #piece3 {
+      background-image: url('images/piece3.jpg');
+    }
+
+    #piece4 {
+      background-image: url('images/piece4.jpg');
+    }
+  </style>
+</head>
+<body>
+  <div class="puzzle-container">
+    <div class="puzzle-piece" id="piece1"></div>
+    <div class="puzzle-piece" id="piece2"></div>
+    <div class="puzzle-piece" id="piece3"></div>
+    <div class="puzzle-piece" id="piece4"></div>
+  </div>
     </div>
     <div class="grid-item">
         2
