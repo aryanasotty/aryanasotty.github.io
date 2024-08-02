@@ -6,4 +6,4 @@
 <p><a href="Basic Web Design/The Imitation Assignment.html" target="_self">Penguins</a></p>
 <p><a href="Basic Web Design/Dinosaur.html" target="_self">Dinosaur</a></p>
 <p><a href="Basic Web Design/Seagull.html" target="_self">Seagull</a></p>
-<p><a href="Basic Web Design/Butterfly.html"target="_self">Butterfly</a></p>
+<p><a href="Basic Web Design/Butterfly.html" target="_self">Butterfly</a></p>
