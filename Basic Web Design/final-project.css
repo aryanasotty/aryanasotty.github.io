@@ -1,4 +1,3 @@
-/* General Styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -6,9 +5,9 @@ body {
 }
 
 header {
-  background-color: #333;
+  background-color: #987654;
   color: #fff;
-  padding: 1rem;
+  padding:16 ox;
 }
 
 nav ul {
@@ -19,69 +18,67 @@ nav ul {
 }
 
 nav li {
-  margin-right: 1rem;
-}
-
-nav a {
+  margin-right: 16px;
   color: #fff;
-  text-decoration: none;
 }
 
 main {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 32px;
 }
 
 section {
-  margin-bottom: 3rem;
+  margin-bottom: 48px;
 }
 
 h1, h2, h3 {
-  color: #333;
+  color: black;
+background-color: #987654;
 }
 
-/* Home Page */
-#hero {
+#homepage {
   text-align: center;
 }
 
-#hero img {
+#homepage img {
   max-width: 100%;
   height: auto;
 }
 
-/* About Page */
 #about img {
   float: right;
   max-width: 50%;
   height: auto;
-  margin-left: 2rem;
+  margin-left: 32px;
 }
 
-/* Menu Page */
 table {
   width: 100%;
   border-collapse: collapse;
 }
 
-th, td {
-  padding: 0.5rem;
+th {
+background-color: #987654;
+ padding:8 px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+
+td {
+  padding:8 px;
   text-align: left;
   border-bottom: 1px solid #ddd;
 }
 
-/* Events Page */
-#events ul {
+#newitems ul {
   list-style-type: none;
   padding: 0;
 }
 
-#events li {
-  margin-bottom: 2rem;
+#newitems li {
+  margin-bottom: 32px;
 }
 
-/* Contact Page */
 #contact form {
   max-width: 500px;
   margin: 0 auto;
@@ -89,28 +86,25 @@ th, td {
 
 #contact label {
   display: block;
-  margin-bottom: 0.5rem;
+  margin-bottom: 08px;
 }
 
 #contact input, #contact textarea {
   width: 100%;
-  padding: 0.5rem;
-  margin-bottom: 1rem;
+  padding: 8px;
+  margin-bottom: 16px;
   border: 1px solid #ddd;
 }
 
 #contact button {
-  background-color: #333;
+  background-color: #987654;
   color: #fff;
   border: none;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
+  padding: 8px 16px;
 }
 
-/* Footer */
 footer {
-  background-color: #333;
+  background-color: #987654;
   color: #fff;
-  text-align: center;
-  padding: 1rem;
+  padding: 16px;
 }
