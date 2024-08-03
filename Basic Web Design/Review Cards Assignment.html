@@ -16,7 +16,7 @@
       perspective: 1000px;
       margin: 20px;
     }
-    .card_container {
+    .grid_container {
       display: grid;
       grid-template-column: repeat(3,1fr)
       grid-gap:20px;
@@ -76,7 +76,8 @@
 </head>
 <body>
   <h1>Review Cards</h1>
-  <p>
+  
+  <div class="grid_container">
   <div class="card_container">
     <div class="card">
       <div class="card_front">
@@ -164,6 +165,7 @@
         <h2>London</h2>
       </div>
     </div>
+  </div>
   </div>
 </body>
 </html>
